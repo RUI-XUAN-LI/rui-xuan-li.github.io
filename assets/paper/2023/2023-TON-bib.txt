@@ -1,0 +1,16 @@
+@article{2023-TON-DoE-Li,
+  author       = {Ruixuan Li and
+                  Xiaofeng Jia and
+                  Zhenyong Zhang and
+                  Jun Shao and
+                  Rongxing Lu and
+                  Jingqiang Lin and
+                  Xiaoqi Jia and
+                  Guiyi Wei},
+  title        = {A Longitudinal And Comprehensive Measurement Of Dns Strict Privacy},
+  journal={IEEE/ACM Transactions on Networking (TON)},
+  year={2023},
+  volume={31},
+  number={6},
+  pages={2793-2808},
+}
