@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:hover="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruixuan Li</title>
+
+  <!--
+    - favicon
+  -->
+<!--  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">-->
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/myfig.jpg" alt="Ruixuan Li" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Ruixuan Li</h1>
+
+          <p class="title" style="font-size: 16px;text-align: center">Tsinghua University</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:lrx.goat@gmail.com" class="contact-link">lrx.goat@gmail.com</a>
+            </div>
+
+
+          </li>
+
+<!--          <li class="contact-item">-->
+
+<!--            <div class="icon-box">-->
+<!--              <ion-icon name="phone-portrait-outline"></ion-icon>-->
+<!--            </div>-->
+
+<!--            <div class="contact-info">-->
+<!--              <p class="contact-title">Phone</p>-->
+
+<!--              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>-->
+<!--            </div>-->
+
+<!--          </li>-->
+
+<!--          <li class="contact-item">-->
+
+<!--            <div class="icon-box">-->
+<!--              <ion-icon name="calendar-outline"></ion-icon>-->
+<!--            </div>-->
+
+<!--            <div class="contact-info">-->
+<!--              <p class="contact-title">Birthday</p>-->
+
+<!--              <time datetime="1982-06-23">June 23, 1982</time>-->
+<!--            </div>-->
+
+<!--          </li>-->
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>FIT 1-213, Tsinghua University, Beijing 100084, P.R.China</address>
+            </div>
+
+          </li>
+
+
+          <li class="contact-item">
+
+            <a class="icon-box" href="https://scholar.google.com.hk/citations?hl=zh-CN&user=toOP7VMAAAAJ">
+              <ion-icon name="school-outline" ></ion-icon>
+            </a>
+
+            <div class="contact-info">
+<!--              <p class="contact-title">Location</p>-->
+              <a class="underlinea" style="font-size: 16px;color: hsl(0, 0%, 98%)" href="https://scholar.google.com.hk/citations?hl=zh-CN&user=toOP7VMAAAAJ" target="_blank" >Google scholar</a>
+<!--              <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=toOP7VMAAAAJ" class="title" style="font-size: 12px;text-align: center">Google scholar</a>-->
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+<!--        <ul class="social-list">-->
+
+
+<!--          <div class="info-content">-->
+<!--            <ion-icon name="school"></ion-icon>-->
+<!--          <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=toOP7VMAAAAJ" class="title" style="font-size: 12px;text-align: center">Google scholar</a>-->
+<!--        </div>-->
+
+<!--          <li class="social-item">-->
+<!--            <a href="#" class="social-link">-->
+<!--              <ion-icon name="school">dasda</ion-icon>-->
+<!--            </a>-->
+<!--          </li>-->
+
+<!--          <li class="social-item">-->
+<!--            <a href="#" class="social-link">-->
+<!--              <ion-icon name="logo-google"></ion-icon>-->
+<!--            </a>-->
+<!--          </li>-->
+
+<!--          <li class="social-item">-->
+<!--            <a href="#" class="social-link">-->
+<!--              <ion-icon name="logo-instagram"></ion-icon>-->
+<!--            </a>-->
+<!--          </li>-->
+
+<!--        </ul>-->
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publications</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Talks</button>
+          </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>MISC</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>中文</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p style="font-size: 18px">
+            I am an engineer at <a class="underlinea" href="https://netsec.ccert.edu.cn/chs/" target="_blank" > Network and Information Security Lab (NISL)</a> of Tsinghua University.
+            My supervisors are <a class="underlinea" href="https://www.liubaojun.org/" target="_blank" >Baojun Liu</a>
+            and Prof. <a class="underlinea" href="https://netsec.ccert.edu.cn/people/duanhx/" target="_blank" >Haixin Duan</a>.
+          </p>
+
+          <p style="font-size: 18px">
+            My research focuses on network security and Internet measurement, with particular interests in security of the Domain Name System (DNS) and Email.
+          </p>
+
+          <p style="font-size: 18px">
+            I obtained my Bachelor’s and Master’s degrees from Zhejiang Gongshang University in 2021 and 2024 respectively (advised by Prof. <a class="underlinea" href="https://junshao81.github.io/index.html" target="_blank" >Jun Shao</a>).
+          </p>
+        </section>
+
+      <div class="separator"></div>
+        <!--
+          - service
+        -->
+<!--        <section class="skill">-->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="volume-medium"></ion-icon>
+            </div>
+
+            <h3 class="h3">Recent News</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <p style="font-size: 18px" class="h4 timeline-item-title">[May 2024] One paper accepted to
+                <a class="underlinea" href="https://www.usenix.org/conference/usenixsecurity24" target="_blank">USENIX Security 2024</a>
+              </p>
+            </li>
+
+
+
+            <li class="timeline-item">
+
+              <p style="font-size: 18px" class="h4 timeline-item-title">[Jan 2024] One paper accepted to
+                <a class="underlinea" href="https://www2024.thewebconf.org/" target="_blank" >WWW 2024</a>
+              </p>
+
+<!--              <span>One paper accepted to WWW 2024.</span>-->
+
+<!--              <p class="timeline-text">-->
+<!--                One paper accepted to WWW 2024.-->
+<!--              </p>-->
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+
+              <div class="separator"></div>
+
+
+
+
+              <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="newspaper"></ion-icon>
+            </div>
+
+            <h3 class="h3">Selected Publications</h3>
+          </div>
+
+          <ol class="timeline-list" >
+
+            <li class="timeline-item">
+              <a class="underlinea" href="https://www2024.thewebconf.org/" target="_blank" >[WWW 2024]
+                <a style="color: hsl(0, 0%, 100%);font-size: 18px"> A Worldwide View on the Reachability of Encrypted DNS Services</a>
+              </a>
+            </li>
+
+
+          </ol>
+
+        </section>
+
+
+
+        <!--
+          - testimonials
+        -->
+
+<!--        <section class="testimonials">-->
+
+<!--          <h3 class="h3 testimonials-title">Selected Publications</h3>-->
+
+<!--          <ul class="testimonials-list has-scrollbar">-->
+
+<!--            <li class="testimonials-item">-->
+<!--              <div class="content-card" data-testimonials-item>-->
+
+<!--                <figure class="testimonials-avatar-box">-->
+<!--                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>-->
+<!--                </figure>-->
+
+<!--                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>-->
+
+<!--                <div class="testimonials-text" data-testimonials-text>-->
+<!--                  <p>-->
+<!--                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a-->
+<!--                    lot of experience-->
+<!--                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt-->
+<!--                    consectetur adipiscing-->
+<!--                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.-->
+<!--                  </p>-->
+<!--                </div>-->
+
+<!--              </div>-->
+<!--            </li>-->
+
+<!--            <li class="testimonials-item">-->
+<!--              <div class="content-card" data-testimonials-item>-->
+
+<!--                <figure class="testimonials-avatar-box">-->
+<!--                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>-->
+<!--                </figure>-->
+
+<!--                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>-->
+
+<!--                <div class="testimonials-text" data-testimonials-text>-->
+<!--                  <p>-->
+<!--                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a-->
+<!--                    lot of experience-->
+<!--                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt-->
+<!--                    consectetur adipiscing-->
+<!--                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.-->
+<!--                  </p>-->
+<!--                </div>-->
+
+<!--              </div>-->
+<!--            </li>-->
+
+<!--            <li class="testimonials-item">-->
+<!--              <div class="content-card" data-testimonials-item>-->
+
+<!--                <figure class="testimonials-avatar-box">-->
+<!--                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>-->
+<!--                </figure>-->
+
+<!--                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>-->
+
+<!--                <div class="testimonials-text" data-testimonials-text>-->
+<!--                  <p>-->
+<!--                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a-->
+<!--                    lot of experience-->
+<!--                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt-->
+<!--                    consectetur adipiscing-->
+<!--                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.-->
+<!--                  </p>-->
+<!--                </div>-->
+
+<!--              </div>-->
+<!--            </li>-->
+
+<!--            <li class="testimonials-item">-->
+<!--              <div class="content-card" data-testimonials-item>-->
+
+<!--                <figure class="testimonials-avatar-box">-->
+<!--                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>-->
+<!--                </figure>-->
+
+<!--                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>-->
+
+<!--                <div class="testimonials-text" data-testimonials-text>-->
+<!--                  <p>-->
+<!--                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a-->
+<!--                    lot of experience-->
+<!--                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt-->
+<!--                    consectetur adipiscing-->
+<!--                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.-->
+<!--                  </p>-->
+<!--                </div>-->
+
+<!--              </div>-->
+<!--            </li>-->
+
+<!--          </ul>-->
+
+<!--        </section>-->
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+
+          </section>
+
+        </div>
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="publications">
+
+        <header>
+          <h2 class="h2 article-title">Publications</h2>
+        </header>
+
+                <section class="about-text" style="font-size: 20px">
+
+
+
+                  <p style="color: hsl(45, 100%, 72%)">4
+                  <a >papers published at top venues: </a>
+                    <a >USENIX Security</a>
+                    <a style="color: hsl(45, 100%, 72%)">[1]</a>
+
+                    <a > ,WWW</a>
+                    <a style="color: hsl(45, 100%, 72%)">[1]</a>
+
+                    <a > ,TON</a>
+                    <a style="color: hsl(45, 100%, 72%)">[1]</a>
+
+                    <a > ,TDSC</a>
+                    <a style="color: hsl(45, 100%, 72%)">[1]</a>
+
+              </p>
+
+                  <a >Publications as the 1st author:
+
+                    <a style="color: hsl(45, 100%, 72%)">3</a>
+
+              </a>
+
+
+
+
+
+        </section>
+
+        <div class="separator"></div>
+
+
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">2024</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item" style="margin-bottom:50px">
+
+              <strong><p style="color: hsl(0, 0%, 100%);font-size: 20px">Tickets or Privacy? Understand the Ecosystem of Chinese Ticket Grabbing Apps</p></strong>
+
+              <span style="font-size: 18px">Proceedings of 33rd USENIX Security Symposium (USENIX Security), Philadelphia, PA, USA, August 2024</span>
+
+              <p class="timeline-text" style="font-size: 18px">Yijing Liu, Yiming Zhang, Baojun Liu<sup class="tooltip"><ion-icon name="mail" style="font-size:14px"></ion-icon></sup>, Haixin Duan, Qiang Li, Mingxuan Liu,
+              <a class="timeline-text" style="color: hsl(45, 100%, 72%);font-size: 18px">Ruixuan Li,</a>
+              <a class="timeline-text" style="font-size: 18px">and Jia Yao</a>
+              </p>
+
+              <ul>
+                <li style="float: left;">
+                  <a class="niceButton3" href="assets/paper/2024/2024-USENIX.pdf" target="_blank">Paper</a>
+                </li>
+
+                <li style="float: left">
+                  <a class="niceButton3">Cite</a>
+                </li>
+
+              </ul>
+
+
+            </li>
+
+            <li class="timeline-item" style="margin-bottom:50px">
+
+              <strong><p style="color: hsl(0, 0%, 100%);font-size: 20px">A Worldwide View on the Reachability of Encrypted DNS Services</p></strong>
+
+              <span style="font-size: 18px">Proceedings of ACM Web Conference (WWW), Singapore, May 2024</span>
+
+              <p class="timeline-text" style="color: hsl(45, 100%, 72%);font-size: 18px">Ruixuan Li,
+                <a class="timeline-text" style="font-size: 18px">Baojun Liu<sup class="tooltip"><ion-icon name="mail" style="font-size:14px"></ion-icon></sup>, Chaoyi Lu, Haixin Duan, and Jun Shao<sup class="tooltip"><ion-icon name="mail" style="font-size:14px"></ion-icon></sup></a>
+
+              </p>
+
+
+
+
+              <ul>
+                <li style="float: left;">
+                  <a class="niceButton3" href="assets/paper/2024/2024-WWW.pdf" target="_blank">Paper</a>
+                </li>
+
+                <li style="float: left">
+                  <a class="niceButton3" href="assets/paper/2024/2024-WWW-bib.txt" target="_blank">Cite</a>
+                </li>
+
+                <li style="float: left;">
+                  <a class="niceButton3" href="assets/paper/2024/2024-WWW-Slides.pdf" target="_blank">Slides</a>
+                </li>
+
+                <li style="float: left;">
+                  <a class="niceButton3" href="assets/paper/2024/2024-WWW-Poster.pdf" target="_blank">Poster</a>
+                </li>
+
+                <li style="float: left;">
+                  <a class="niceButton3" href="https://www.youtube.com/watch?v=AD_lFVZk_dQ" target="_blank">Video</a>
+                </li>
+
+                <li style="float: left;">
+                  <a class="niceButton3" href="https://port-53.info/data/open-encrypted-dns-servers/" target="_blank">Data</a>
+                </li>
+
+
+              </ul>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+
+<!--        2023 -->
+
+        <section class="timeline" style="margin-top: 80px">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">2023</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item" style="margin-bottom:50px">
+
+              <strong><p style="color: hsl(0, 0%, 100%);font-size: 20px">A Longitudinal and Comprehensive Measurement of DNS Strict Privacy</p></strong>
+
+              <span style="font-size: 18px">Proceedings of IEEE/ACM Transactions on Networking (TON), 2023</span>
+
+              <p class="timeline-text" style="color: hsl(45, 100%, 72%);font-size: 18px">Ruixuan Li,
+              <a class="timeline-text" style="font-size: 18px">Xiaofeng Jia, Zhenyong Zhang, Jun Shao<sup class="tooltip"><ion-icon name="mail" style="font-size:14px"></ion-icon></sup>, Rongxing Lu, Jingqiang Lin, Xiaoqi Jia, and Guiyi Wei</a>
+              </p>
+              <ul>
+                <li style="float: left;">
+                  <a class="niceButton3" href="assets/paper/2023/2023-TON.pdf" target="_blank">Paper</a>
+                </li>
+
+                <li style="float: left">
+                  <a class="niceButton3" href="assets/paper/2023/2023-TON-bib.txt" target="_blank">Cite</a>
+                </li>
+
+              </ul>
+
+
+            </li>
+
+            <li class="timeline-item" style="margin-bottom:50px">
+
+              <strong><p style="color: hsl(0, 0%, 100%);font-size: 20px">The Potential Harm of Email Delivery: Investigating the HTTPS configurations of Webmail Services</p></strong>
+
+              <span style="font-size: 18px">Proceedings of IEEE Transactions on Dependable and Secure Computing (TDSC), 2023</span>
+
+              <p class="timeline-text" style="color: hsl(45, 100%, 72%);font-size: 18px">Ruixuan Li,
+              <a class="timeline-text" style="font-size: 18px">Zhenyong Zhang, Jun Shao<sup class="tooltip"><ion-icon name="mail" style="font-size:14px"></ion-icon></sup>, Rongxing Lu, Xiaoqi Jia, and Guiyi Wei</a>
+              </p>
+
+              <ul>
+                <li style="float: left;">
+                  <a class="niceButton3" href="assets/paper/2023/2023-TDSC.pdf" target="_blank">Paper</a>
+                </li>
+
+                <li style="float: left">
+                  <a class="niceButton3" href="assets/paper/2023/2023-TDSC-bib.txt" target="_blank">Cite</a>
+                </li>
+
+              </ul>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <div class="separator"></div>
+
+
+        <p class="timeline-text" style="font-size: 14px">Last modified: July 22, 2024</p>
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="Talks">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+
+
+          </div>
+
+
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
