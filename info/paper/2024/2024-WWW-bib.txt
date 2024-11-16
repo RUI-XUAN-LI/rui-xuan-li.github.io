@@ -1,0 +1,13 @@
+@inproceedings{2024-WWW-DoE-Li,
+  author       = {Ruixuan Li and
+                  Baojun Liu and
+                  Chaoyi Lu and
+                  Haixin Duan and
+                  Jun Shao},
+  title        = {A Worldwide View on the Reachability of Encrypted {DNS} Services},
+  booktitle    = {Proceedings of the {ACM} on Web Conference (WWW)},
+  pages        = {1193--1202},
+  publisher    = {{ACM}},
+  year         = {2024},
+}
+

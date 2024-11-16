@@ -1,0 +1,18 @@
+@inproceedings{2024-WWW-Bounce-Li,
+  title={Bounce in the Wild: A Deep Dive into Email Delivery Failures from a Large Email Service Provider},
+  author={Ruixuan Li and
+          Shaodong Xiao and
+          Baojun Liu and
+          Yanzhong Lin and
+          Haixin Duan and
+          Qingfeng Pan and
+          Jianjun Chen and
+          Jia Zhang and
+          Ximeng Liu and
+          Xiuqi Lu and
+          Jun Shao},
+  booktitle={Proceedings of the Internet Measurement Conference (IMC)},
+  pages={659--673},
+  publisher={{ACM}},
+  year={2024}
+}

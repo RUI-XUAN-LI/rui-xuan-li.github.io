@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:hover="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC 2024</title>
+
+    <!--
+      - favicon
+    -->
+    <!--  <link rel="shortcut icon" href="./info/images/logo.ico" type="image/x-icon">-->
+
+    <!--
+      - custom css link
+    -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!--
+      - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!--
+  - #MAIN
+-->
+
+<main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+        <div class="sidebar-info">
+
+            <figure class="avatar-box">
+                <img src="../images/myfig1.jpg" alt="Ruixuan Li" width="80">
+            </figure>
+
+            <div class="info-content">
+                <h1 class="name" title="Richard hanrick">Ruixuan Li</h1>
+
+                <p class="title" style="font-size: 16px;text-align: center">Tsinghua University</p>
+            </div>
+
+            <button class="info_more-btn" data-sidebar-btn>
+                <span>Show Contacts</span>
+
+                <ion-icon name="chevron-down"></ion-icon>
+            </button>
+
+        </div>
+
+
+        <div class="sidebar-info_more">
+
+            <div class="separator"></div>
+
+            <ul class="contacts-list">
+
+                <li class="contact-item">
+
+                    <div class="icon-box">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </div>
+
+                    <div class="contact-info">
+                        <p class="contact-title">Email</p>
+
+                        <a>liruixuan [at] mail.tsinghua.edu.cn</a>
+                    </div>
+
+
+                </li>
+
+                <li class="contact-item">
+
+                    <div class="icon-box">
+                        <ion-icon name="location-outline"></ion-icon>
+                    </div>
+
+                    <div class="contact-info">
+                        <p class="contact-title">Location</p>
+
+                        <address>FIT 1-213, Tsinghua University, Beijing 100084, P.R.China</address>
+                    </div>
+
+                </li>
+
+
+                <li class="contact-item">
+
+                    <a class="icon-box" href="https://scholar.google.com.hk/citations?hl=zh-CN&user=toOP7VMAAAAJ">
+                        <ion-icon name="school-outline"></ion-icon>
+                    </a>
+
+                    <div class="contact-info">
+                        <!--              <p class="contact-title">Location</p>-->
+                        <a class="underlinea" style="font-size: 16px;color: hsl(0, 0%, 98%)"
+                           href="https://scholar.google.com.hk/citations?hl=zh-CN&user=toOP7VMAAAAJ" target="_blank">Google
+                            scholar</a>
+                        <!--              <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=toOP7VMAAAAJ" class="title" style="font-size: 12px;text-align: center">Google scholar</a>-->
+                    </div>
+
+                </li>
+
+            </ul>
+
+            <div class="separator"></div>
+
+
+        </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+
+
+        <article class="about  active" data-page="about">
+
+            <header>
+                <h2 class="h2 article-title">Internet Measurement Conference (IMC) 2024</h2>
+            </header>
+
+            <section class="about-text">
+
+                <p style="font-size: 20px;text-align: justify">
+
+                    In the 2024 Internet Measurement Conference (IMC), I presented one paper “Bounce in the Wild: A Deep Dive
+                    into Email Delivery Failures from a Large Email Service Provider” to the audiences.
+
+                </p>
+
+
+                <figure class="blog-banner-box" style="width: 100%;height: 100%">
+                    <img src="../images/talks/2024-IMC.png" alt="Internet Measurement Conference (IMC) 2024"
+                         loading="lazy">
+                </figure>
+
+            </section>
+
+
+            <section class="timeline">
+
+                <ol class="timeline-list">
+
+
+                    <li class="timeline-item">
+                        <p style="font-size: 20px;font-weight: bold;color: hsl(45, 100%, 72%)"
+                           class="h4 timeline-item-title">Date:
+                            <a style="font-weight: normal">November 4 - 6, 2024</a>
+                        </p>
+                    </li>
+
+
+                    <li class="timeline-item">
+                        <p style="font-size: 20px;font-weight: bold;color: hsl(45, 100%, 72%)">Event:
+                            <a class="underlinena" href="https://conferences.sigcomm.org/imc/2024/" target="_blank" style="font-weight: normal">24th
+                                ACM Internet Measurement Conference 2024</a>
+                        </p>
+                    </li>
+
+
+                    <li class="timeline-item">
+                        <p style="font-size: 20px;font-weight: bold;color: hsl(45, 100%, 72%)">Location:
+                            <a style="font-weight: normal">ESPACIO Fundación Telefónica,
+                                Calle Fuencarral, 3, Centro, 28004 Madrid, Spain</a>
+                        </p>
+                    </li>
+
+
+
+
+
+                </ol>
+
+            </section>
+
+
+            <div class="separator"></div>
+
+
+            <header>
+                <h2 class="h2 article-title">Abstract</h2>
+            </header>
+
+            <section class="about-text">
+
+                <p style="font-size: 20px;text-align: justify; line-height: 1.5">
+
+                    Abnormal email bounces seriously disrupt user lives and company transactions. Proliferating security protocols and protection strategies have made email delivery increasingly complex. A natural question is how and why email delivery fails in the wild. Filling this knowledge gap requires a representative global email delivery dataset, which is rarely disclosed by email service providers (ESPs).
+
+                </p>
+
+                <p style="font-size: 20px;text-align: justify; line-height: 1.5">
+                    In this paper, we first systematically reveal the scale and root causes of email bounces, and evaluate the email squatting risk in the real world. Through a 15-month passive dataset from a large ESP, we present a unique global view of 298M emails delivered to 3M receiver mail servers in 169 countries. We find that 38M (12.93%) emails fail to be delivered in the first attempt, about one-third of which could be successfully delivered after retrying, while the rest are permanently undeliverable. Delving deeper into bounce reasons, we observe that poor server reputation and network communication quality are significant factors leading to temporary email bounces. In particular, spam blocklists affect many normal email deliveries. The misconfiguration of authentication mechanisms and email address typos result in many permanently undeliverable emails. More seriously, many email addresses with significant residual value can be exploited by squatting attackers. Overall, we call for the community to revisit email delivery failures, especially to improve standards for email bounce reporting and resolution.
+
+
+                </p>
+
+
+            </section>
+
+                                <li style="margin-bottom:70px">
+                        <ul>
+                            <li style="float: left;">
+                                <a class="niceButton3" href="../paper/2024/2024-IMC.pdf" target="_blank">Paper</a>
+                            </li>
+
+                            <li style="float: left">
+                                <a class="niceButton3" href="../paper/2024/2024-IMC-bib.txt" target="_blank">Cite</a>
+                            </li>
+
+                            <li style="float: left;">
+                                <a class="niceButton3" href="../paper/2024/2024-IMC-Slides.pdf"
+                                   target="_blank">Slides</a>
+                            </li>
+
+
+                        </ul>
+
+
+                    </li>
+
+
+        </article>
+
+
+    </div>
+
+</main>
+
+
+<!--
+  - custom js link
+-->
+<script src="./assets/js/script.js"></script>
+
+<!--
+  - ionicon link
+-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
