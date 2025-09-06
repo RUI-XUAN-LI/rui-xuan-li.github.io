@@ -1,0 +1,18 @@
+@inproceedings{DBLP:conf/ndss/0008LLZHDLP0025,
+  author       = {Ruixuan Li and
+                  Chaoyi Lu and
+                  Baojun Liu and
+                  Yunyi Zhang and
+                  Geng Hong and
+                  Haixin Duan and
+                  Yanzhong Lin and
+                  Qingfeng Pan and
+                  Min Yang and
+                  Jun Shao},
+  title        = {{HADES} Attack: Understanding and Evaluating Manipulation Risks of
+                  Email Blocklists},
+  booktitle    = {32nd Annual Network and Distributed System Security Symposium, {NDSS}
+                  2025, San Diego, California, USA, February 24-28, 2025},
+  publisher    = {The Internet Society},
+  year         = {2025}
+}
